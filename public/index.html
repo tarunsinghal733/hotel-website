@@ -2,77 +2,112 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>HOTEL</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!--favicon-->
-    <link rel="icon" type="images/png" href="img/favicon.png">
-    
+    <link rel="icon" type="images/png" href="img/favicon.png" />
+
     <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">  
 
+    <script src="https://kit.fontawesome.com/021ffcb143.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
     <!--slider-->
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.css">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="responsive.css" />
 </head>
 
 <body data-bs-spy="scroll" data-bs-targets=".navbar" data-bs-offset="100">
-
     <!--navbar-->
-    <header class="header_wrapper">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="far fa-stream navbar-toggler-icon"></i>
-          </button>
+    <header class="header-wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-fluid" alt="logo" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
 
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav menu-navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#rooms">Rooms</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#team">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#price">Price</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#blog">Blog</a>
-              </li>
-              <li class="nav-item mt-3mt-lg-0">
-                <a class="main-btn" href="#home">Book Now</a>
-              </li>
-            </ul>
-          </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Price</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item mt-3mt-lg-0">
+                            <a class="main-btn" href="#home">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--banner-->
+    <section id="home" class="banner-wrapper p-0">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url(./img/slider1.webp)">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to the Hotel</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos officia rem labore
+                                accusantium fugiat porro nihil, harum reprehenderit nemo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image:url(./img/slider2.webp)">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to the Hotel</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ipsam porro cupiditate
+                                exercitationem molestias quibusdam distinctio? Labore, voluptas unde.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination">
+
+            </div>
         </div>
-      </nav>
-</header>
+    </section>
 
 
 
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js">  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@popperjs/c ore@2.9.2/dist/umd/popper.min.js" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
-    <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+
 </body>
+
 </html>
