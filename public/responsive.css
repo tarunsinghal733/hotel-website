@@ -17,10 +17,22 @@
         padding-left: 0.3125rem !important;
         padding-right: 0.3125rem !important;
     }
+    .room-item .room-content{
+        padding: 1rem 1.875rem;
+        
+    }
+    .room-item .room-content h5 {
+    font-size: 1.5rem;
+    }
+    .room-item .room-content p{ 
+        font-size: 0.75rem;
+    }
+
+
 }
 
 
-@media (max-width: 991px) {
+@media (max-width: 968px) {
     Section {
         padding: 1.875rem 0;
     }
@@ -52,6 +64,15 @@
     }
     .about-wrapper{
         padding-top: 22.75rem;
+    }
+    .room-item .room-content{
+        padding: 2rem 1.875rem;
+    }
+    .room-item .room-content h5 {
+    font-size: 1.75rem;
+    }
+    .room-item .room-content p{ 
+        font-size: 0.75rem;
     }
 }
 
