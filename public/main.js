@@ -1,14 +1,14 @@
 //*Navbar*//
 let nav = document.querySelector(".navbar");
 window.onscroll = function() {
-  if (document.documentElement.scrollTop > 200) {
+  if (document.documentElement.scrollTop > 50) {
     nav.classList.add("header-scrolled");
   } else {
     nav.classList.remove("header-scrolled");
   }
 }
 
-//*Navbar -hide*//
+//*Navbar-hide*//
 let navbar = document.querySelectorAll('.nav-link');
 let navCollapse = document.querySelector('.navbar-collapse.collapse');
 navbar.forEach(function(a){
@@ -29,6 +29,36 @@ autoplay: {
     delay: 3500,
 },
 });
+
+//slider
+var swiper = new Swiper(".our-partner", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+    breakpoints: {
+        '991': {
+            slidesPerView: 4,
+            spaceBetween: 10,
+        },
+        '767': {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        '320': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+        },
+
+
+    },
+});
+
+
+
+
 
 
 //*counter*//

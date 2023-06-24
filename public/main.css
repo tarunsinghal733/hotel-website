@@ -171,23 +171,24 @@ p span {
     width: 100%;
     z-index: 99;
     background-color: white;
-    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeindown;
-    animation: 500ms ease-in-out 0s normal none 1 running fadeindown;
+    -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
-@keyframes fadeindown {
-    0% {
+@keyframes fadeInDown {
+    0%{
         top: -30%;
     }
 
-    50% {
+    50%{
         top: -15%;
     }
 
-    100% {
+    100%{
         top: 0;
     }
 }
+
 
 .banner-wrapper {
     height: 40.625rem;
@@ -458,4 +459,12 @@ cursor: pointer;
 .price-wrapper .card:hover .main-btn{
     color: #fff;
     border-color: #fff;
+}
+.blog-wrapper .blog-content{
+    margin: -5rem 0 0 4.375rem;
+    box-shadow:0 0.125rem 0.25rem rgb(34 30 31 /40%);
+}
+.our-partner-slider{
+    background-color: #F5F5F5;
+padding: 3.125rem 0;
 }
