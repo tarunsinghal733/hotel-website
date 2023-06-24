@@ -27,8 +27,28 @@
     .room-item .room-content p{ 
         font-size: 0.75rem;
     }
-
-
+.service-item-wrap .tab-content img{
+    width: 100%;
+}
+.service-menu-area ul li a{
+    margin-bottom: -4.4735rem;
+overflow: hidden;
+}
+.service-menu-area ul li:nth-child(1){
+    margin-left: -4.4735rem;
+}
+.service-menu-area ul li:nth-child(2){
+    margin-left: -6.735rem;
+}
+.service-menu-area ul li:nth-child(3){
+    margin-left: -9.375rem;
+}
+.service-menu-area ul li:nth-child(4){
+    margin-left: -12.825rem;
+}
+.service-menu-area ul li a h5{
+    margin-bottom: 3.75rem;
+}
 }
 
 
@@ -73,6 +93,11 @@
     }
     .room-item .room-content p{ 
         font-size: 0.75rem;
+    }
+    .service-menu-area{padding: 1.5rem 0 0.5rem; 
+    }
+    .service-menu-area ul li{
+        margin-left: unset !important;
     }
 }
 
