@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -13,8 +12,8 @@
     --bg-white: white;
     --bg-black: black;
 
-    --primary-font: 'Poppins', sans-serif;
-    --secondary-font: 'Oswald', sans-serif;
+  
+
     --primary-text:  #021832;
     --secondary-text: #caa169;
     --text-white: white;
@@ -23,7 +22,7 @@
 }
 
 body {
-    font-family: var(--primary--font);
+    font-family:'Poppins', sans-serif;
     background-color: var(--bg-white);
 
 }
@@ -75,7 +74,7 @@ h1 {
     color: white;
     margin-bottom: 1.25rem;
     text-transform: uppercase;
-    font-family: var(--secondary--font);
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
@@ -84,7 +83,7 @@ h3 {
     font-weight: 700;
     font-size: 2.25rem;
     color:  #021832;
-    font-family: var(--secondary-font);
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 span {
@@ -96,7 +95,7 @@ h5 {
     line-height: 1;
     color:  #021832;
     font-weight: 800;
-    font-family: var(--secondary-font);
+    font-family: 'Oswald', sans-serif;
 }
 
 h6 {
@@ -105,7 +104,7 @@ h6 {
     margin-bottom: 0.9375rem;
     text-transform: uppercase;
     font-weight: 300;
-    font-family: var(--secondary-font);
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
