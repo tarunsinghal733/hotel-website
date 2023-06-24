@@ -125,4 +125,10 @@ overflow: hidden;
     .blog-wrapper .blog-content{
         margin: 0;
     }
+    .copyright{
+        text-align: center;
+    }
+    .footer-wrapper > div{
+padding: 0 3.125rem;
+    }
 }
